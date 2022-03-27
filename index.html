@@ -8,9 +8,119 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="">
+        <div class="row">
+            <div class="col1">
+                User Id: 
+            </div>
+             <div class="col2">
+                <input type="text" id="txUserID" required>
+                <span id="statusOfUserID"></span>
+             </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                Password:
+            </div> 
+            <div class="col2">
+                <input type="password" id="txPassword" required>
+                <span id="statusOfPassword"></span>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                Name: 
+            </div>
+            <div class="col2">
+                <input type="text" id="txName" required>
+                <span id="statusOfName"></span>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                Address: 
+            </div>
+            <div class="col2">
+                <input type="text" id="txAddress" >
+                <span id="statusOfAddress"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                Country: 
+            </div>
+            <div class="col2">
+                <select name="Country" id="Country" required>
+                    <option value="Vietnam">Viet Nam</option>
+                    <option value="china">China</option>
+                    <option value="korea">Korea</option>
+                    <span id="statusOfCountry"></span>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                ZIP Code: 
+            </div>
+            <div class="col2">
+                <input type="text" id="txZipCode" required >
+                <span id="statusOfZipCode"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                Email: 
+            </div>
+            <div class="col2">
+                <input type="email" id="txEmail" required >
+                <span id="statusOfEmail"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                Sex: 
+            </div>
+            <div class="col2">
+                <input type="radio" id="txSex" name="Sex" required > Male
+                <input type="radio" id="txSex" name="Sex" required > Female
+                <span id="statusOfSex"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+               Language: 
+            </div>
+            <div class="col2">
+                <input type="checkbox" id="txLanguage" name="Language" required > English
+                <input type="checkbox" id="txLanguage" name="Language" required > Non English
+                <span id="statusOfLanguage"></span>
+
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col1">
+                About: 
+            </div>
+            <div class="col2">
+                <input type="text" id="txAbout"  style="width:200px; height: 100px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <input type="submit" name="btnRegister" id="Register" >
+            </div>
+        </div>
+    </form>
 
 
     <script src="./assets/js/main.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <!-- <script src="./assets/js/jquery.js"></script> -->
 </body>
 </html>
